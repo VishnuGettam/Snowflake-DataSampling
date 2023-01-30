@@ -10,11 +10,23 @@ Data sampling is used to fetch the subset of the data from tables .
 
 4.This approach helps to reduce storage and processing cost for lower env set up's .
 
-# Methods 
+
+# Keywords
+
+SAMPLE | TABLESAMPLE
+
+BERNOULLI | ROW
+
+SYSTEM | BLOCK
+
+REPEATABLE | SEED 
+
+# Methods (FRACTION | FIXED-SIZE)
 
 1.ROW | BERNOULLI => will get subset from complete rows of table 
 
 2.SYSTEM | BLOCK => will fetch data from table files i.e micro partitions.
+
 
 
 
