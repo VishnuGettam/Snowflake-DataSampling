@@ -28,5 +28,18 @@ REPEATABLE | SEED
 2.SYSTEM | BLOCK => will fetch data from table files i.e micro partitions.
 
 
+# Join conditions 
+
+1.The sample is row-based (Bernoulli).
+
+2.The sampling does not use a seed.
+
+# Query  : 
+
+Select * from table_1 sample(5) 
+inner join table_2 sample(8) 
+on table_1.value = table_2.value;
+
+
 
 
