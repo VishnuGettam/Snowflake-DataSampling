@@ -12,7 +12,7 @@ Data sampling is used to fetch the subset of the data from tables .
 
 # Methods 
 
-1.ROW | BERNOLI => will get subset from complete rows of table 
+1.ROW | BERNOULLI => will get subset from complete rows of table 
 
 2.SYSTEM | BLOCK => will fetch data from table files i.e micro partitions.
 
